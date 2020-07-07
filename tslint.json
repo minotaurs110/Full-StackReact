@@ -1,0 +1,50 @@
+{
+  "defaultSeverity": "error",
+  "linterOptions": {
+    "exclude": ["**/node_modules/**", "**/build/**", "**/dist/**", "**/__generated__/**"]
+  },
+  "extends": [
+    "tslint:recommended",
+    "tslint-consistent-codestyle",
+    "tslint-eslint-rules",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "arrow-parens": false,
+    "array-type": [true, "generic"],
+    "comment-format": [true, "check-space"],
+    "interface-over-type-literal": false,
+    "jsx-no-multiline-js": false,
+    "max-line-length": false,
+    "member-access": [true, "no-public"],
+    "no-collapsible-if": true,
+    "no-console": false,
+    "no-constant-condition": true,
+    "no-duplicate-case": true,
+    "no-empty": false,
+    "no-empty-character-class": true,
+    "no-ex-assign": true,
+    "no-extra-boolean-cast": true,
+    "no-inner-declarations": true,
+    "no-invalid-regexp": true,
+    "no-return-undefined": true,
+    "no-sparse-arrays": true,
+    "no-unused": true,
+    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "object-literal-sort-keys": false,
+    "switch-default": true,
+    "ter-prefer-arrow-callback": true,
+    "triple-equals": true,
+    "valid-typeof": true,
+    "jsx-no-lambda": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-snake-case",
+      "allow-leading-underscore"
+    ]
+  }
+}
